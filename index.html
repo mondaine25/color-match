@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Color Match – Privacy Policy</title>
+<title>Inkfocus &amp; Color Match – Privacy Policy</title>
+<meta name="description" content="Privacy Policy for Inkfocus (iPhone and iPad) and Color Match (Android), by Leonardo Mondaine.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Bebas+Neue&display=swap');
 
@@ -210,16 +211,46 @@
     .section { padding: 24px 20px; }
     main { padding: 40px 16px 80px; }
   }
+
+  .logo-title span.ink-r { color: var(--red); }
+  .logo-title span.ink-o { color: #ff8a2a; }
+  .logo-title span.ink-b { color: var(--blue); }
+  .logo-title span.ink-t { color: var(--text); }
+  .also {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .also strong { color: var(--text); font-weight: 500; }
+  .platforms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 16px 0;
+  }
+  .platform {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.02);
+  }
+  .platform .pname { color: var(--text); font-weight: 700; display: block; }
+  .platform .pstore { color: var(--muted); font-size: 13px; }
+  .section:nth-child(9)::before { background: linear-gradient(90deg, var(--blue), transparent); }
+  @media (max-width: 600px) {
+    .platforms { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
 <header>
   <div class="logo-title">
-    <span>C</span><span>o</span><span>l</span><span>o</span><span>r</span>&nbsp;<span>M</span><span>a</span><span>t</span><span>c</span><span>h</span>
+    <span class="ink-r">I</span><span class="ink-o">n</span><span class="ink-b">k</span><span class="ink-t">focus</span>
   </div>
-  <div class="logo-sub">Mobile Game by Leonardo Mondaine</div>
-  <div class="badge">Privacy Policy · <span>Last updated: April 2026</span></div>
+  <div class="logo-sub">Focus Meter by Leonardo Mondaine</div>
+  <div class="also">Published as <strong>Inkfocus</strong> on the App Store and as <strong>Color Match</strong> on Google Play</div>
+  <div class="badge">Privacy Policy · <span>Last updated: October 21, 2026</span></div>
 </header>
 
 <main>
@@ -227,96 +258,104 @@
   <div class="section">
     <div class="section-number">01 · OVERVIEW</div>
     <h2>Introduction</h2>
-    <div class="kids-badge">✦ Family Friendly App</div>
-    <p>Color Match is a mobile game developed by Leonardo Gabriel da Silva (publicly known as <strong>Leonardo Mondaine</strong>). This Privacy Policy explains how we handle information when you play Color Match on Android devices.</p>
-    <p>Color Match is designed to be suitable for players of all ages, including children. We are committed to protecting the privacy of all our players.</p>
-    <p>By downloading and playing Color Match, you agree to the practices described in this policy.</p>
+    <p>This Privacy Policy applies to one mobile game developed by Leonardo Gabriel da Silva (publicly known as <strong>Leonardo Mondaine</strong>), which is published under two names:</p>
+    <div class="platforms">
+      <div class="platform"><span class="pname">Inkfocus</span><span class="pstore">iPhone and iPad · Apple App Store</span></div>
+      <div class="platform"><span class="pname">Color Match</span><span class="pstore">Android · Google Play</span></div>
+    </div>
+    <p>In this policy, "the app" means either version. Where the two versions work differently, this is stated explicitly.</p>
+    <p>The app does not have accounts or sign-in. We do not ask for your name, email address, phone number, contacts, photos, location or any other personal information.</p>
   </div>
 
   <div class="section">
     <div class="section-number">02 · DATA WE COLLECT</div>
     <h2>Information Collection</h2>
-    <p>Color Match is designed with privacy in mind. We collect minimal data necessary to operate the game and serve advertisements.</p>
     <ul>
-      <li><strong>Advertising data</strong> — Color Match uses Google AdMob to display ads. AdMob may collect device identifiers, IP address, and interaction data to serve relevant ads.</li>
-      <li><strong>Game progress</strong> — Your score, high score, language preference, and difficulty settings are stored locally on your device only. We do not store this data on external servers.</li>
-      <li><strong>Crash reports</strong> — Anonymous crash data may be collected automatically by the Android platform to help us fix bugs.</li>
+      <li><strong>Advertising data</strong> — The app shows ads from Google AdMob. AdMob may collect device identifiers (such as the advertising ID), IP address, approximate location derived from the IP address, and ad interaction data in order to deliver, measure and, where permitted, personalize ads. See section 04.</li>
+      <li><strong>Install attribution (Android only)</strong> — Color Match on Android uses AppsFlyer to measure which ad campaigns lead to installs. AppsFlyer may receive the advertising ID, IP address, device model, operating system version and basic in-game events (for example, reaching a new high score or watching a rewarded ad). Inkfocus on iOS does not include AppsFlyer.</li>
+      <li><strong>Game progress and focus statistics</strong> — Scores, high scores, settings, language, daily streak and the focus statistics described in section 03 are stored <strong>only on your device</strong>. We do not run servers for the app and this data is never uploaded to us.</li>
+      <li><strong>Crash reports</strong> — If you have enabled crash and diagnostics sharing in your device settings, Apple or Google may share anonymous crash reports with us to help fix bugs.</li>
     </ul>
-    <p>We do <strong>not</strong> collect your name, email address, phone number, or any personally identifiable information directly.</p>
+    <p>We do not sell personal information, and we do not collect personal information directly.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">03 · ADVERTISING</div>
-    <h2>Google AdMob</h2>
-    <p>Color Match displays ads provided by Google AdMob. AdMob is operated by Google LLC and is subject to Google's own privacy policy.</p>
+    <div class="section-number">03 · FOCUS STATISTICS</div>
+    <h2>Focus Meter Data</h2>
+    <p>The app measures your performance in each session to show your progress over time:</p>
     <ul>
-      <li>AdMob may use cookies and device identifiers to serve personalized or non-personalized ads.</li>
-      <li>Ads shown in Color Match comply with Google's families policy and are appropriate for general audiences.</li>
-      <li>You can opt out of personalized advertising through your device settings under <span class="highlight">Google → Ads → Opt out of Ads Personalization</span>.</li>
+      <li>Reaction time, accuracy and Stroop effect (how much the meaning of a word slows you down when it does not match its color), per session.</li>
+      <li>Up to the last 400 sessions are kept, with the date, game mode, difficulty and score of each one.</li>
     </ul>
-    <p>For more information, visit: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+    <p>These statistics are stored in a local file on your device. They are not sent to us, to advertisers or to any third party, and they are not linked to your identity.</p>
+    <p>The focus statistics are a training metric for entertainment. They are <strong>not</strong> a medical, psychological or diagnostic assessment.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">04 · CHILDREN</div>
+    <div class="section-number">04 · ADVERTISING &amp; CONSENT</div>
+    <h2>Google AdMob and Your Choices</h2>
+    <p>The app is free and is supported by ads from Google AdMob, a service of Google LLC that is governed by Google's own privacy policy.</p>
+    <ul>
+      <li><strong>EEA, UK and Switzerland</strong> — where required, the app asks for your consent through Google's consent form before personalized ads are used. Reinstalling the app shows the form again so you can change your choice.</li>
+      <li><strong>iPhone and iPad</strong> — the advertising identifier is only available if you allow tracking through Apple's App Tracking Transparency prompt. If you do not allow it, ads are not personalized using that identifier. You can change this at any time in <span class="highlight">Settings → Privacy &amp; Security → Tracking</span>.</li>
+      <li><strong>Android</strong> — you can reset or delete your advertising ID, or opt out of ads personalization, in <span class="highlight">Settings → Google → Ads</span> (or <span class="highlight">Settings → Privacy → Ads</span>, depending on your device).</li>
+    </ul>
+    <p>More information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information in ads</a>.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">05 · CHILDREN</div>
     <h2>Children's Privacy</h2>
-    <p>Color Match is a family-friendly game suitable for players of all ages. We take children's privacy seriously and comply with applicable children's privacy laws including COPPA (Children's Online Privacy Protection Act).</p>
-    <ul>
-      <li>We do not knowingly collect personal information from children under 13.</li>
-      <li>We do not allow behavioral advertising targeting children.</li>
-      <li>Ads shown to younger audiences comply with Google Play Families Policy.</li>
-    </ul>
-    <p>If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately and we will take steps to remove such information.</p>
+    <p>The app is intended for a general audience and is not directed to children under 13. We do not knowingly collect personal information from children under 13.</p>
+    <p>If you are a parent or guardian and believe that your child's information was collected through the app, please contact us and we will help remove it.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">05 · YOUR RIGHTS</div>
-    <h2>Data Rights & Control</h2>
-    <p>Depending on your location, you may have the following rights regarding your data:</p>
+    <div class="section-number">06 · YOUR RIGHTS</div>
+    <h2>Data Rights &amp; Control</h2>
+    <p>Depending on where you live (for example under the GDPR in Europe or the LGPD in Brazil), you may have the right to access, correct or delete personal data, to object to or restrict its processing, and to withdraw consent.</p>
     <ul>
-      <li>The right to know what data is collected about you</li>
-      <li>The right to request deletion of your data</li>
-      <li>The right to opt out of personalized advertising</li>
-      <li>The right to withdraw consent at any time</li>
+      <li>All game data and focus statistics can be deleted at any time by uninstalling the app.</li>
+      <li>Ad personalization and tracking can be controlled as described in section 04.</li>
+      <li>Requests regarding data held by Google (AdMob) or AppsFlyer can be made directly to those companies, or to us and we will help you.</li>
     </ul>
-    <p>Since Color Match stores game data only locally on your device, you can delete all game data by uninstalling the app.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">06 · THIRD PARTIES</div>
+    <div class="section-number">07 · THIRD PARTIES</div>
     <h2>Third-Party Services</h2>
-    <p>Color Match integrates the following third-party services:</p>
     <ul>
-      <li><strong>Google AdMob</strong> — Ad monetization. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
-      <li><strong>Google Play Services</strong> — App distribution and device services. <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+      <li><strong>Google AdMob</strong> (both versions) — ads. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>AppsFlyer</strong> (Android only) — install attribution. <a href="https://www.appsflyer.com/legal/services-privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>Google Play Services</strong> (Android only) — app distribution and device services. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><strong>Apple App Store</strong> (iOS only) — app distribution. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
     </ul>
-    <p>We are not responsible for the privacy practices of third-party services. We encourage you to review their policies directly.</p>
+    <p>We are not responsible for the privacy practices of these services and encourage you to review their policies.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">07 · CHANGES</div>
+    <div class="section-number">08 · CHANGES</div>
     <h2>Policy Updates</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date at the top. We encourage you to review this policy periodically.</p>
-    <p>Continued use of Color Match after any changes constitutes your acceptance of the updated policy.</p>
+    <p>We may update this Privacy Policy from time to time. Changes will be published on this page with a new date at the top.</p>
   </div>
 
   <div class="section">
-    <div class="section-number">08 · CONTACT</div>
+    <div class="section-number">09 · CONTACT</div>
     <h2>Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
+    <p>If you have any questions about this Privacy Policy or want to exercise your rights, contact us:</p>
     <div class="contact-card">
       <p><strong>Developer:</strong> Leonardo Gabriel da Silva (Leonardo Mondaine)</p>
       <p><strong>Email:</strong> <a href="mailto:leonardomondaine@gmail.com">leonardomondaine@gmail.com</a></p>
       <p><strong>Location:</strong> Cascavel, Paraná, Brazil</p>
-      <p><strong>App:</strong> Color Match — Android Mobile Game</p>
+      <p><strong>Apps:</strong> Inkfocus (iPhone and iPad) · Color Match (Android)</p>
     </div>
   </div>
 
 </main>
 
 <footer>
-  <p>© 2026 <span class="dev-name">Leonardo Mondaine</span> · All rights reserved · Color Match</p>
-  <p style="margin-top:8px;">This policy applies to the Color Match Android application.</p>
+  <p>© 2026 <span class="dev-name">Leonardo Mondaine</span> · All rights reserved</p>
+  <p style="margin-top:8px;">This policy applies to Inkfocus on the Apple App Store and Color Match on Google Play.</p>
 </footer>
 
 </body>
